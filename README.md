@@ -17,7 +17,7 @@ I am adding the current architecture image. Please ignore Elasticsearch in it. T
 ![Image of Yaktocat](https://studyplatform.s3.amazonaws.com/61f55c69-cc64-4481-8a47-1e384a07c1a4.png) 
 
 ### Steps to build
-* Clone the project by using following command "git clone https://github.com/aman1064/wingify.git"
+* Clone the project by using following command "git clone https://github.com/aman1064/productlisting.git"
 * Go to project directory where pom.xml is present and run following command "mvn clean package"
 * The final build will be present in target directory with name api-server-0.0.1-SNAPSHOT.jar
 
