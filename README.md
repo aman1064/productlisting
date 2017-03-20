@@ -20,10 +20,11 @@ I am adding the current architecture image. Please ignore Elasticsearch in it. T
 * Clone the project by using following command "git clone https://github.com/aman1064/productlisting.git"
 * Go to project directory where pom.xml is present and run following command "mvn clean package"
 * The final build will be present in target directory with name api-server-0.0.1-SNAPSHOT.jar
+* There is a dump folder with this repo. It contains the mongodb dump that can be used to play with this project.
 
 ### Running the project
 * To run simply do java -jar api-server-0.0.1-SNAPSHOT.jar --aws.access.key=accessKey --aws.secret.key=secretKey
-* To check list of API present in the system go to following url http://localhost:8080/swagger-ui.html
+* To check list of API present in the system go to following url http://localhost:8080/swagger-ui.html. This page should provide you with the list of api in this project.
 
 ### List of API
 * User Registration: To register user. Please note this api saves raw password in database. In realword applications this needs to be hashed before getting saved in DB. I usually use BCrypt Encoder for it.
